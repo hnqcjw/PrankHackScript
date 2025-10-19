@@ -1,6 +1,9 @@
 #!/bin/bash
 # HACK
 
+host ${1}
+sleep 1
+
 for (( i=0; i<25; i++ )); do
 	echo "[ ${1} ] SYSTEM VERSION $(uname -r) CURRENT DIRECTORY $(pwd)"
 	sleep 0.1
